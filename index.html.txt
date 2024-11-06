@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>حجز موعد طبي عند الدكتورة بو عبد اللّه ليندة للقلب و الشرايين</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1>حجز موعد طبي عند الدكتورة بو عبد اللّه ليندة للقلب و الشرايين</h1> 
+   <form id="bookingForm"> 
+    <div class="form-group"> <label for="name">الاسم:</label> 
+     <input type="text" id="name" placeholder="أدخل اسمك" required> 
+    </div> 
+    <div class="form-group"> <label for="surname">اللقب:</label> 
+     <input type="text" id="surname" placeholder="أدخل لقبك" required> 
+    </div> 
+    <div class="form-group"> <label for="birthdate">تاريخ الميلاد:</label> 
+     <input type="date" id="birthdate" required> 
+    </div> 
+    <div class="form-group"> <label for="appointmentType">نوع الموعد:</label> 
+     <input type="text" id="appointmentType" placeholder="أدخل الموعد (حجز أول مرة - متابعة طبية - أوراق)" required> 
+    </div> <button type="submit" class="submit-btn">حجز الموعد</button> 
+   </form> 
+   <h2>قائمة المرضى المحجوزين</h2> 
+   <ul id="patientList"></ul> <button id="clearListButton" class="clear-btn">إعادة قائمة جديدة</button> 
+  </div> 
+  <script src="script.js"></script> 
+ </body>
+</html>
